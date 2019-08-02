@@ -1,0 +1,1 @@
+@php c:\Users\agorokhov\Documents\tools\composer\composer.phar %*

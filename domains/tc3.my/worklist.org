@@ -1,0 +1,9 @@
+Tasks shortlist: 
+
+[] Number Emails on our side
+
+notif delete on exit
+
+attachment Loader
+
+authentication

@@ -1,0 +1,149 @@
+@if (isset($issue->end_date))
+  <div class="panel panel-default done">
+@else
+  <div class="panel panel-default">
+@endif     
+
+  <div class="panel-heading">
+    <h4 class="panel-title">
+      <span class="label label-default issue-idt">{{$issue->issue_idt}}</span>
+      <a href="/case/{{$issue->issue_idt}}">
+        {{$issue->cust_name}}&nbsp; | &nbsp; {{$issue->name}}
+      </a>
+      &nbsp;
+      <a data-toggle="collapse" href="#{{$issue->issue_idt}}">
+        Collapse
+      </a>
+
+      <!--a href="/saveonp/{{$issue->id}}/list" class="pull-right" data-target="#save_dialog" data-toggle="modal">Attachments ({{$issue->id}})</a-->
+
+      <div class="btn-group pull-right">
+        <button type="button" class="btn btn-default">
+            <a href="/saveonp/{{$issue->id}}/list" data-target="#save_dialog" data-toggle="modal">
+              <span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>
+            </a>
+        </button>
+        <button type="button" class="btn btn-default">
+            <span class="glyphicon glyphicon-arrow-up" aria-hidden="true"><!--input type="file"--></span>
+        </button>
+      </div>
+    </h4>
+  </div>
+  
+  <div id="{{$issue->issue_idt}}" class="panel-collapse collapse in">
+    <div class="panel-footer">
+      @if (isset($issue->end_date))
+              <span class="label label-default pull-right">{{$issue->end_date}}</span>
+              <span class="label label-default pull-right rmargin-small">{{$issue->officer_name}}</span>
+                
+                {{$issue->result_details}}
+      @else
+        <textarea rows="10" style="width:100%;" id="iss_text_{{$issue->id}}" class="iss_text">{{{ $issue->result_details }}}</textarea><br>
+
+      <input type="text" class="form-control" id="iss_comment_{{$issue->id}}" value="{{$issue->test_impact}}" placeholder="Comment"></input><br>
+
+      <!-- Attachment-->
+      <input type="text" class="form-control" id="iss_att_path_{{$issue->id}}" placeholder="Path to attachment"></input><br>
+
+      
+      <div class="btn-group">
+        <button type="button" class="btn btn-default doComplete" id="complete_{{$issue->id}}">Complete</button>        
+        <button type="button" class="btn btn-default doSave" id="save_{{$issue->id}}">Save&amp;Chk</button>
+        <button type="button" class="btn btn-default">Attach</button>
+        @if ($issue->issue_type == 63)
+          <button type="button" class="btn btn-default">ClAdvice</button>
+        @endif
+        @if ($issue->issue_type == 370)
+          <button type="button" class="btn btn-danger">ToRequest</button>
+        @endif
+        <button type="button" class="btn btn-default">Reject</button>
+        <button type="button" class="btn btn-default" id="new_jira">New Jira</button>
+      </div>
+        <input type="hidden" value="{{$issue->id}}" name="iss_id">
+
+
+          <div class="form-inline  pull-right">
+            <div class="btn-group tight-gutter" data-toggle="buttons">
+                 {{-- <label class="btn btn-default">
+                    <input type="radio" id="time0" name="timing_{{$issue->id}}"  value="0.0" /> 0m
+                </label>  --}}
+                <label class="btn btn-default active">
+                    <input type="radio" id="time1" name="timing_{{$issue->id}}" checked="checked"  value="0.017" /> 1m
+                </label> 
+                <label class="btn btn-default">
+                    <input type="radio" id="time2" name="timing_{{$issue->id}}" value="0.034" /> 2m
+                </label> 
+                <label class="btn btn-default">
+                    <input type="radio" id="time3" name="timing_{{$issue->id}}" value="0.05" /> 3m
+                </label> 
+                <label class="btn btn-default">
+                    <input type="radio" id="time4" name="timing_{{$issue->id}}" value="0.07" /> 4m
+                </label> 
+                <label class="btn btn-default">
+                    <input type="radio" id="time5" name="timing_{{$issue->id}}" value="0.1" /> 5m
+                </label>
+                <label class="btn btn-default">
+                    <input type="radio" id="time5" name="timing_{{$issue->id}}" value="0.2" /> 10m
+                </label>
+            
+            </div>
+          <input type="text" class="form-control timer" id="time" name="timing_{{$issue->id}}" placeholder="0.00">
+          </div>
+
+      @endif
+    </div>
+    <div class="panel-body">
+          <span class="label label-default pull-right">{{$issue->input_date}}</span>
+          <span class="label label-default pull-right rmargin-small">{{$issue->user_name}}</span>
+
+          {{$issue->details}}
+
+          @if( isset($issue->end_date))
+            <br><br>
+            @if(isset($issue->test_impact))
+            <div class="alert alert-warning">
+              <strong>Comment: </strong>{{$issue->test_impact}}
+                <button type="button" class="btn btn-default pull-right" id="doEditComment_{{$issue->id}}">Edit</button> 
+            </div>
+            @else
+              <input type="text" class="form-control" id="iss_comment_{{$issue->id}}" value="{{$issue->test_impact}}" placeholder="Comment"></input><br>
+            @endif
+            <div class="btn-group">
+              <button type="button" class="btn btn-default doCapture" id="complete_{{$issue->id}}">Capture</button>        
+              <button type="button" class="btn btn-default doCreateNext" id="complete_{{$issue->id}}">CrNext</button>        
+              <button type="button" class="btn btn-default doSave" id="save_{{$issue->id}}">Save&amp;Chk</button>
+            </div>
+            <input type="hidden" value="{{$issue->id}}" name="iss_id">
+
+          <div class="form-inline  pull-right">
+            <div class="btn-group tight-gutter" data-toggle="buttons">
+                 {{-- <label class="btn btn-default">
+                    <input type="radio" id="time0" name="timing_{{$issue->id}}"  value="0.0" /> 0m
+                </label>  --}}
+                <label class="btn btn-default active">
+                    <input type="radio" id="time1" name="timing_{{$issue->id}}" checked="checked"  value="0.017" /> 1m
+                </label> 
+                <label class="btn btn-default">
+                    <input type="radio" id="time2" name="timing_{{$issue->id}}" value="0.034" /> 2m
+                </label> 
+                <label class="btn btn-default">
+                    <input type="radio" id="time3" name="timing_{{$issue->id}}" value="0.05" /> 3m
+                </label> 
+                <label class="btn btn-default">
+                    <input type="radio" id="time4" name="timing_{{$issue->id}}" value="0.07" /> 4m
+                </label> 
+                <label class="btn btn-default">
+                    <input type="radio" id="time5" name="timing_{{$issue->id}}" value="0.1" /> 5m
+                </label>
+                <label class="btn btn-default">
+                    <input type="radio" id="time5" name="timing_{{$issue->id}}" value="0.2" /> 10m
+                </label>
+            
+            </div>
+          <input type="text" class="form-control timer" id="time" name="timing_{{$issue->id}}" placeholder="0.00">
+          </div>
+
+          @endif
+    </div>
+  </div>
+</div>

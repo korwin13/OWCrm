@@ -1,0 +1,59 @@
+[26-Feb-2016 06:52:17 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/crmweb/modules/php/PHP-5.6/ext/php_excel.dll' - The specified module could not be found.
+ in Unknown on line 0
+[26-Feb-2016 06:52:17 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/crmweb/modules/php/PHP-5.6/ext/php_propro.dll' - The specified module could not be found.
+ in Unknown on line 0
+[26-Feb-2016 06:52:17 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/crmweb/modules/php/PHP-5.6/ext/php_raphf.dll' - The specified module could not be found.
+ in Unknown on line 0
+[26-Feb-2016 06:52:17 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/crmweb/modules/php/PHP-5.6/ext/php_http.dll' - The specified module could not be found.
+ in Unknown on line 0
+[26-Feb-2016 06:52:17 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/crmweb/modules/php/PHP-5.6/ext/php_imagick.dll' - The specified module could not be found.
+ in Unknown on line 0
+[26-Feb-2016 06:52:17 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/crmweb/modules/php/PHP-5.6/ext/php_mailparse.dll' - The specified module could not be found.
+ in Unknown on line 0
+[26-Feb-2016 06:52:17 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/crmweb/modules/php/PHP-5.6/ext/php_oauth.dll' - The specified module could not be found.
+ in Unknown on line 0
+[26-Feb-2016 06:52:17 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/crmweb/modules/php/PHP-5.6/ext/php_oci8_12c.dll' - The specified module could not be found.
+ in Unknown on line 0
+[26-Feb-2016 06:52:17 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/crmweb/modules/php/PHP-5.6/ext/php_pdo_oci.dll' - The specified module could not be found.
+ in Unknown on line 0
+[26-Feb-2016 06:52:17 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/crmweb/modules/php/PHP-5.6/ext/php_pop3.dll' - The specified module could not be found.
+ in Unknown on line 0
+[26-Feb-2016 06:52:17 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/crmweb/modules/php/PHP-5.6/ext/php_rar.dll' - The specified module could not be found.
+ in Unknown on line 0
+[26-Feb-2016 06:52:17 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/crmweb/modules/php/PHP-5.6/ext/php_sqlsrv.dll' - The specified module could not be found.
+ in Unknown on line 0
+[26-Feb-2016 06:52:17 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/crmweb/modules/php/PHP-5.6/ext/php_ssh2.dll' - The specified module could not be found.
+ in Unknown on line 0
+[26-Feb-2016 06:52:17 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/crmweb/modules/php/PHP-5.6/ext/php_uploadprogress.dll' - The specified module could not be found.
+ in Unknown on line 0
+[26-Feb-2016 06:52:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/crmweb/modules/php/PHP-5.6/ext/php_excel.dll' - The specified module could not be found.
+ in Unknown on line 0
+[26-Feb-2016 06:52:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/crmweb/modules/php/PHP-5.6/ext/php_propro.dll' - The specified module could not be found.
+ in Unknown on line 0
+[26-Feb-2016 06:52:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/crmweb/modules/php/PHP-5.6/ext/php_raphf.dll' - The specified module could not be found.
+ in Unknown on line 0
+[26-Feb-2016 06:52:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/crmweb/modules/php/PHP-5.6/ext/php_http.dll' - The specified module could not be found.
+ in Unknown on line 0
+[26-Feb-2016 06:52:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/crmweb/modules/php/PHP-5.6/ext/php_imagick.dll' - The specified module could not be found.
+ in Unknown on line 0
+[26-Feb-2016 06:52:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/crmweb/modules/php/PHP-5.6/ext/php_mailparse.dll' - The specified module could not be found.
+ in Unknown on line 0
+[26-Feb-2016 06:52:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/crmweb/modules/php/PHP-5.6/ext/php_oauth.dll' - The specified module could not be found.
+ in Unknown on line 0
+[26-Feb-2016 06:52:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/crmweb/modules/php/PHP-5.6/ext/php_oci8_12c.dll' - The specified module could not be found.
+ in Unknown on line 0
+[26-Feb-2016 06:52:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/crmweb/modules/php/PHP-5.6/ext/php_pdo_oci.dll' - The specified module could not be found.
+ in Unknown on line 0
+[26-Feb-2016 06:52:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/crmweb/modules/php/PHP-5.6/ext/php_pop3.dll' - The specified module could not be found.
+ in Unknown on line 0
+[26-Feb-2016 06:52:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/crmweb/modules/php/PHP-5.6/ext/php_rar.dll' - The specified module could not be found.
+ in Unknown on line 0
+[26-Feb-2016 06:52:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/crmweb/modules/php/PHP-5.6/ext/php_sqlsrv.dll' - The specified module could not be found.
+ in Unknown on line 0
+[26-Feb-2016 06:52:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/crmweb/modules/php/PHP-5.6/ext/php_ssh2.dll' - The specified module could not be found.
+ in Unknown on line 0
+[26-Feb-2016 06:52:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/crmweb/modules/php/PHP-5.6/ext/php_uploadprogress.dll' - The specified module could not be found.
+ in Unknown on line 0
+[26-Feb-2016 06:52:20 UTC] PHP Fatal error:  Undefined constant 'OCI_COMMIT_ON_SUCCESS' in C:\CRMWeb\domains\tc3.my\vendor\jfelder\oracledb\src\Jfelder\OracleDB\Connectors\OracleConnector.php on line 35
+[26-Feb-2016 06:52:25 UTC] PHP Fatal error:  Undefined constant 'OCI_COMMIT_ON_SUCCESS' in C:\CRMWeb\domains\tc3.my\vendor\jfelder\oracledb\src\Jfelder\OracleDB\Connectors\OracleConnector.php on line 35
+[26-Feb-2016 06:52:27 UTC] PHP Fatal error:  Undefined constant 'OCI_COMMIT_ON_SUCCESS' in C:\CRMWeb\domains\tc3.my\vendor\jfelder\oracledb\src\Jfelder\OracleDB\Connectors\OracleConnector.php on line 35

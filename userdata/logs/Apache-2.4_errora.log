@@ -1,0 +1,13 @@
+[Wed Dec 21 15:47:39.870117 2016] [ssl:warn] [pid 10276:tid 676] AH01909: crm.my:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 21 15:47:39.871117 2016] [ssl:warn] [pid 10276:tid 676] AH01909: default:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 21 15:47:40.358527 2016] [ssl:warn] [pid 10276:tid 676] AH01909: crm.my:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 21 15:47:40.358527 2016] [ssl:warn] [pid 10276:tid 676] AH01909: default:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 21 15:47:41.495485 2016] [mpm_winnt:notice] [pid 10276:tid 676] AH00455: Apache/2.4.16 (Win32) OpenSSL/1.0.1p configured -- resuming normal operations
+[Wed Dec 21 15:47:41.495485 2016] [mpm_winnt:notice] [pid 10276:tid 676] AH00456: Apache Lounge VC11 Server built: Jul 12 2015 10:56:48
+[Wed Dec 21 15:47:41.495485 2016] [core:notice] [pid 10276:tid 676] AH00094: Command line: 'C:\\crmweb\\modules\\http\\Apache-2.4\\bin\\httpd.exe -d C:/CRMWeb/modules/http/Apache-2.4 -f c:\\crmweb\\modules\\http\\Apache-2.4\\conf\\httpd.conf'
+[Wed Dec 21 15:47:41.579556 2016] [mpm_winnt:notice] [pid 10276:tid 676] AH00418: Parent: Created child process 9356
+[Wed Dec 21 15:47:42.550372 2016] [ssl:warn] [pid 9356:tid 660] AH01909: crm.my:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 21 15:47:42.553375 2016] [ssl:warn] [pid 9356:tid 660] AH01909: default:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 21 15:47:42.851626 2016] [ssl:warn] [pid 9356:tid 660] AH01909: crm.my:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 21 15:47:42.852627 2016] [ssl:warn] [pid 9356:tid 660] AH01909: default:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 21 15:47:43.289995 2016] [mpm_winnt:notice] [pid 9356:tid 660] AH00354: Child: Starting 32 worker threads.

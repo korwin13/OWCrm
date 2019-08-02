@@ -1,0 +1,40 @@
+CRMBlob sample
+
+load;crmha1:1521/cust2.openwaygroup.spb.ru;agorokhov;destroer13;crm.;4389167;\\fs\p\BANKSLOG\Azericard\I1607127504_Pectoral_n_VIS_1.5\20160712_114541\emvperso_pect_v15.ini;
+
+working sample
+load;crmha1:1521/cust2.openwaygroup.spb.ru;agorokhov;destroer13;crm.;4416136;c:\tmp\kaz_menu\menu_update.sql;
+
+
+
+
+4400352
+
+
+load;crmha1:1521/cust2.openwaygroup.spb.ru;agorokhov;destroer13;crm.;4504781;o:\OW Support\New Releases\2016-October\SQL\ImpactChangesCheck.ZIP
+
+
+c:\CRM\Home\client\crm\CRMBlob.exe load;crmha1:1521/cust2.openwaygroup.spb.ru;agorokhov;destroer13;crm.;4537887;c:\tmp\az_perso\emvperso_gd.ini
+
+
+c:\tmp\kaz_menu\menu_update_170816.sql
+
+
+ID	4537887	4537887
+AMND_DATE	2016-09-15 16:02:18	15.09.2016 16:02:18
+AMND_OFFICER	8616	8616
+AMND_PREV	4537887	4537887
+AMND_STATE	A	Active
+INPUT_DATE	2016-09-15 16:02:18	15.09.2016 16:02:18
+NAME	NULL	
+SOURCE__OID	5470854	5470854
+SOURCE_CODE	I	Issue
+SOURCE_ROLE	NULL	
+
+
+
+
+
+
+
+
